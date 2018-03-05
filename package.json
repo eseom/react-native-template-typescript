@@ -1,0 +1,29 @@
+{
+  "name": "react-native-template-typescript-lint",
+  "version": "4.0.4",
+  "description": "a react native template with typeScript and tslint.",
+  "scripts": {
+    "test": "standard setup.js",
+    "prepublishOnly2": "git reset --hard && npm --no-git-tag-version version from-git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eseom/react-native-template-typescript-lint.git"
+  },
+  "keywords": [
+    "react-native",
+    "typescript",
+    "jest",
+    "template",
+    "boilerplate"
+  ],
+  "author": "Eunseok Eom <me@eseom.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eseom/react-native-template-typescript-lint/issues"
+  },
+  "homepage": "https://github.com/eseom/react-native-template-typescript-lint#readme",
+  "devDependencies": {
+    "standard": "11.0.1"
+  }
+}
